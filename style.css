@@ -4,9 +4,10 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-  background-color: #f1f1f1;
+  background-color: #333;
+  color: azure;
 }
 
 #main-header {
@@ -23,7 +24,7 @@ body {
   border-right: solid 2.5px #333;
 }
 
-#navbar>h1 {
+#navbar > h1 {
   font-size: 1.6rem;
   text-align: center;
   padding: 1rem 0;
@@ -44,12 +45,11 @@ body {
 #main-header #navbar ul li a {
   display: block;
   text-align: left;
-  padding: .8rem 1rem .8rem 2rem;
+  padding: 0.8rem 1rem 0.8rem 2rem;
   cursor: pointer;
-  color: #222;
+  color: #fff;
   text-decoration: none;
 }
-
 
 /* main section */
 #main-doc {
@@ -65,8 +65,8 @@ body {
 
 #main-doc .main-section .main-article {
   padding-left: 1.5rem;
-  margin-bottom: .5rem;
-  color: #222;
+  margin-bottom: 0.5rem;
+  color: #fff;
 }
 
 #main-doc .main-section .main-article p {
@@ -85,13 +85,13 @@ body {
   display: block;
   padding: 1.5rem;
   text-align: left;
-  background-color: #ddd;
+  background-color: #000;
   border-radius: 7px;
   margin-bottom: 1rem;
 }
 
 #main-doc .main-section:last-child .main-article ul {
-  margin: .5rem 0 1.5rem 3rem;
+  margin: 0.5rem 0 1.5rem 3rem;
   padding: 0;
 }
 
@@ -122,5 +122,4 @@ body {
     padding: 2rem 1rem;
     margin-top: 410px;
   }
-
 }
